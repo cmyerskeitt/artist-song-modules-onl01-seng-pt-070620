@@ -4,7 +4,7 @@ require_relative '../lib/concerns/paramable'
 require 'pry'
 
 class Song
-  # extend Memorable
+  extend Memorable
   extend Findable 
   
   attr_accessor :name
