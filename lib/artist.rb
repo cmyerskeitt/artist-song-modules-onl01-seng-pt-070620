@@ -4,7 +4,7 @@ require_relative '../lib/concerns/paramable'
 require 'pry'
 
 class Artist
-  extend Memorable 
+  
   extend Findable 
   include Paramable
   
